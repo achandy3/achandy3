@@ -1,32 +1,52 @@
 
-Hi, I'm Aeden 👋
-I'm a Computer Science student interested in defensive cybersecurity, SOC analysis, and Python development. I build practical projects to practice detecting suspicious activity, investigating evidence, and improving system security.
+# Hi, I'm Aeden 👋
 
-Featured projects
-🛡️ Mini SOC Lab
-A hands-on security monitoring lab using Wazuh, Ubuntu Server, and UTM.
+I'm a Computer Science student focused on **defensive cybersecurity, SOC analysis, and Python development**.
 
-Investigated an authorized SSH brute-force simulation using Wazuh alerts and MITRE ATT&CK mappings.
-Configured real-time file integrity monitoring and analyzed a controlled file modification.
-Remediated six cron-permission findings and verified them using CIS security configuration assessments. The benchmark's displayed score changed from 50% to 53% during the hardening exercise.
-Documented three investigations with screenshots, procedures, findings, and limitations.
-Explore the lab and investigation reports
+I enjoy building hands-on projects that turn security concepts into practical experience.
 
-🐍 Brute-Force Login Detector
-A defensive Python tool that analyzes fictional authentication logs.
+## 🛡️ Featured Cybersecurity Projects
 
-Detects repeated failed logins within configurable rolling time windows.
-Supports alert suppression, incident grouping, and correlation with subsequent successful logins.
-Exports JSON alerts and investigation summaries.
-Includes unit tests and a GitHub Actions test workflow.
-View the code and investigation case study
+### [Mini SOC Lab](https://github.com/achandy3/mini-soc-lab)
 
-Skills and interests
-Defensive security: alert triage, authentication logs, file integrity monitoring, and evidence-based reporting
-Linux: permissions, configuration, and security hardening
-Programming: Python, C, C++, and Java
-Tools: Wazuh, Ubuntu/Linux, Git, GitHub Actions, UTM, and VS Code
-I'm continuing to develop these skills through Computer Science coursework and hands-on security projects.
+A hands-on security monitoring environment built with **Wazuh, Ubuntu Server, and UTM**.
 
-All security tests described in these projects used fictional data or authorized personal-lab activity. Reports distinguish observed results from assumptions and limitations.
+- Investigated simulated SSH brute-force activity.
+- Configured real-time File Integrity Monitoring.
+- Remediated six CIS Linux security configuration findings.
+- Improved the displayed CIS assessment score from **50% to 53%**.
+- Documented three investigations with supporting evidence.
 
+**[View project and investigation reports](https://github.com/achandy3/mini-soc-lab)**
+
+### [Brute-Force Login Detector](https://github.com/achandy3/brute-force-login-detector)
+
+A Python-based security tool for detecting suspicious authentication activity in fictional log datasets.
+
+- Configurable detection thresholds and time windows.
+- Alert suppression and incident correlation.
+- JSON reporting and automated testing.
+- Documented SOC investigation case study.
+
+**[View Python project](https://github.com/achandy3/brute-force-login-detector)**
+
+## 💻 Technical Skills
+
+| Area | Technologies |
+|---|---|
+| Security | SOC analysis, SIEM, Wazuh, MITRE ATT&CK |
+| Programming | Python, C, C++, Java |
+| Systems | Ubuntu, Linux, Bash |
+| Tools | Git, GitHub Actions, VS Code, UTM |
+| Practices | Log analysis, file integrity monitoring, Linux hardening |
+
+## 🎯 Currently Learning
+
+- Threat detection and incident investigation
+- Defensive security engineering
+- Linux administration and security
+- Python automation for cybersecurity
+
+---
+
+*Projects use fictional datasets or authorized personal-lab simulations. Findings are documented with their limitations.*
